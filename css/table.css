@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: cursive;
+	color: white;
+}
+
+body{
+	width : 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("back.jpg");
+	color: white;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+	font-size: 40px;
+}
+table{
+	color: white;
+	letter-spacing: 1.2px;
+}
+td{
+	text-align: center;
+	color: white;
+}
+th{
+	color: white;
+}
+tr{
+	color: white;
+}
+.form-control{
+	color: black;
+}
+button{
+	border:none;
+	background: #d9d9d9;
+    transition: 1s;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
+.tableoption{
+	color: black;
+}
